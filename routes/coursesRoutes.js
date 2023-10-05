@@ -2,19 +2,13 @@ const express = require('express');
 const { coursesController } = require('../controllers');
 const router = express.Router();
 
-// get all courses
-router.get('/courses', coursesController.getCourses);
+// routes home
+router.get('/index', coursesController.getCourses);
 
-// // Create a new user
-// userRoutes.post('/', userController.createUser);
+// views courses routes
+router.get('/views/courses', coursesController.getCourses);
 
-// // Get a user by ID
-// userRoutes.get('/:userId', userController.getUserById);
-
-// // Update a user by ID
-// userRoutes.put('/:userId', userController.updateUserById);
-
-// // Delete a user by ID
-// userRoutes.delete('/:userId', userController.deleteUserById);
+// view courseview routes
+router.get('/views/courseview', coursesController.getCourses);
 
 module.exports = router;

@@ -1,7 +1,9 @@
-async function getCourses(req, res) {
-    console.log('masuk ke path /');
+const { coursesService } = require('../services');
 
-    res.send('OK');
+async function getCourses(req, res) {
+    const course = await coursesService.getAllCourses();
+
+    res.status(200).json(course);
 }
 
 module.exports = {

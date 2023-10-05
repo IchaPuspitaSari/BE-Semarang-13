@@ -1,5 +1,9 @@
 const coursesRoutes = require('./coursesRoutes');
+const teamRoutes = require('./teamRoutes');
+const formRoutes = require('./formRoutes');
 
 module.exports = [
-    coursesRoutes
+    coursesRoutes,
+    teamRoutes,
+    formRoutes,
 ];
