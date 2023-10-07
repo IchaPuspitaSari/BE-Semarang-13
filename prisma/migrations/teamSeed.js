@@ -3,9 +3,9 @@ const prisma = new PrismaClient();
 
 const teamData = [
   {
-    name: 'Jidan Haviar',
+    name: 'Jidan Haviar Saviola',
     role: 'Team Leader',
-    image: 'jidan.jpg',
+    image: 'https://i.ibb.co/w4Ffk8M/jidan.jpg',
     social: {
       linkedin: 'https://www.linkedin.com/in/jidan-haviar-569857270',
       instagram: 'https://www.instagram.com/jidan_haviar',
@@ -15,7 +15,7 @@ const teamData = [
   {
     name: 'Mariana Novantika Loru Koba',
     role: 'Front-End Engineer',
-    image: 'tika.jpg',
+    image: 'https://i.ibb.co/3mb3V0g/tika.jpg',
     social: {
       linkedin: 'https://www.linkedin.com/in/MarianaLoruKoba',
       instagram: 'https://www.instagram.com/tika01',
@@ -25,7 +25,7 @@ const teamData = [
   {
     name: 'Humaira Asfa Revaldi',
     role: 'Front-End Engineer',
-    image: 'maia.jpg',
+    image: 'https://i.ibb.co/PYG86fR/maia.jpg',
     social: {
       linkedin: 'https://www.linkedin.com/in/humairaasfa',
       instagram: 'https://www.instagram.com/mairaasfa',
@@ -35,7 +35,7 @@ const teamData = [
   {
     name: 'Icha Puspita Sari',
     role: 'Back-End Engineer',
-    image: 'icha.jpg',
+    image: 'https://i.ibb.co/5WFvSgb/icha.jpg',
     social: {
       linkedin: 'https://www.linkedin.com/in/ichapsptasari',
       instagram: 'https://www.instagram.com/ichapsptaa',
@@ -45,7 +45,7 @@ const teamData = [
   {
     name: 'Muhammad Arif Sofyan',
     role: 'Back-End Engineer',
-    image: 'arif.jpg',
+    image: 'https://i.ibb.co/TYMxdCm/arif.jpg',
     social: {
       linkedin: 'https://www.linkedin.com/in/muhammadarifsofyan',
       instagram: 'https://www.instagram.com/arifsfyn',
@@ -55,7 +55,7 @@ const teamData = [
   {
     name: 'Hulwanul Azka Putra Pratama',
     role: 'Quality Assurance',
-    image: 'azka.jpg',
+    image: 'https://i.ibb.co/QMkx3F1/azka.jpg',
     social: {
       linkedin: 'https://www.linkedin.com/in/hulwanul-azka-putra-pratama-2734a5219',
       instagram: 'https://www.instagram.com/kaaz_pratma09',
@@ -65,7 +65,7 @@ const teamData = [
   {
     name: 'Clarisa Deswanti Sihombing',
     role: 'Quality Assurance',
-    image: 'clarisa.jpg',
+    image: 'https://i.ibb.co/2jt2bZ0/clarisa.jpg',
     social: {
       linkedin: 'https://www.linkedin.com/in/clarisa-s-198077139',
       instagram: 'https://www.instagram.com/clarisa.ds',

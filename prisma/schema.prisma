@@ -20,6 +20,9 @@ model Course {
   videos     String
   teacher    String
   intro      String
+  students   String
+  date       String
+  price      String
 }
 
 model Team {
@@ -30,16 +33,6 @@ model Team {
   linkedin String
   instagram String
   github   String
-}
-
-model PopularCourse {
-  id         Int       @id @default(autoincrement())
-  name       String
-  students   String    
-  date       String
-  instructor String
-  price      String   
-  image      String
 }
 
 model Form {

@@ -12,6 +12,20 @@ async function getAllCourses() {
     }
 }
 
+async function getCourseById(courseId) {
+    try {
+        const course = await prisma.course.findUnique({
+            where: { id: courseId },
+        });
+
+        return course;
+    } catch (error) {
+        console.error(error);
+        throw new Error('Gagal mengambil course berdasarkan ID');
+    }
+}
+
 module.exports = {
-    getAllCourses
+    getAllCourses,
+    getCourseById
 };
